@@ -1,5 +1,5 @@
 {
-  "name": "@fech-dev/counter-js",
+  "name": "@federico.mameli/counter-js",
   "version": "1.0.0",
   "description": "Simple js counter",
   "main": "src/index.js",
