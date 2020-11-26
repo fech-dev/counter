@@ -13,7 +13,7 @@ Simple counter built in js
   ```
 
   ```js
-  import Counter from '@fech-dev/counter'
+  import Counter from '@federico.mameli/counter'
 
   const counterEl = document.querySelector('.counter')
   const counter = new Counter({
