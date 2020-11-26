@@ -7,7 +7,8 @@
   "author": "Federico Mameli <federico_mameli@yahoo.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rollup --config ./rollup.config.js"
+    "dev": "rollup --config ./rollup.config.dev.js --watch",
+    "build": "rollup --config ./rollup.config.prod.js"
   },
   "devDependencies": {
     "@rollup/plugin-json": "^4.1.0",

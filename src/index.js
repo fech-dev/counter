@@ -7,7 +7,7 @@ export default class {
 			el,
 			from = 0,
 			to = 100,
-			incRange = 10,
+			incRange,
 			overflow = 0,
 			time = 50,
 			start = false
@@ -15,12 +15,12 @@ export default class {
     
     this.version = version
 		this.el = el
-		this.from = from
-		this.to = to
-		this.incRange = incRange
+		this.from = Number(from)
+		this.to = Number(to)
 		this.overflow = overflow
 		this.time = time
-		this.toFixedValue = countDecimalDigits(this.incRange)
+		this.incRange = incRange || Number(this.to / this.time) 
+		this.toFixedValue = countDecimalDigits(this.to)
 		
 		if(start){
 			this.start()
@@ -44,8 +44,9 @@ export default class {
 					inc -= this.incRange
 
 					if(inc < this.to){
+						inc = this.to
 						clearInterval(intervalID)
-						return
+						// return
 					}
 				}
 
