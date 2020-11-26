@@ -30,8 +30,10 @@ Simple counter built in js
   ```
 
   ## options properties
+  
   ### options.el <HtmlElement>
   The element where to print the counter values.
+  
   ### options.from <Number>
   start value, default 0
 
