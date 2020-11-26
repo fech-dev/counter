@@ -5,11 +5,11 @@ Simple counter built in js
 
 ### Module
   ```bash
-  npm install @fech-dev/counter
+  npm install @federico.mameli/counter
 
   or 
 
-  yarn add @fech-dev/counter
+  yarn add @federico.mameli/counter
   ```
 
   ```js

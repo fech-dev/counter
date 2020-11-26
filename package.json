@@ -1,6 +1,6 @@
 {
   "name": "@federico.mameli/counter-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple js counter",
   "main": "src/index.js",
   "repository": "https://github.com/fech-dev/counter.git",
